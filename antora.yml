@@ -6,7 +6,7 @@ content:
   sources:
   - url: git@github.com:tw-brightsec/antora.git
   branches: master
-    start_path: master
+    start_path: docs
 ui:
   bundle: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
   snapshot: true
