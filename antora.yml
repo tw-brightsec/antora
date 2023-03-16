@@ -1,0 +1,12 @@
+site:
+  title: Brightsec Docs
+  url: https://docs.demo.com
+  start_page: component-b::index.adoc
+content:
+  sources:
+  - url: git@github.com:tw-brightsec/antora.git
+  branches: master
+    start_path: docs
+ui:
+  bundle: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+  snapshot: true
