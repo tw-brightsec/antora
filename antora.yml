@@ -1,6 +1,6 @@
-    site:
+site:
   title: Brightsec Docs
-  url: tw-brightsec.github.io/antora
+  url: https://tw-brightsec.github.io/antora
   start_page: webclient:user:welcome.adoc
   robots: allow
 content:
