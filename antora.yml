@@ -1,12 +1,13 @@
 site:
-  title: Brightsec Docs
+  title: Antora Docs
   url: https://docs.demo.com
   start_page: nav.adoc
 content:
   sources:
   - url: git@github.com:tw-brightsec/antora.git
-  branches: master
-    start_path: build
+    branches: master
+      start_page: nav.adoc
 ui:
-  bundle: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
-  snapshot: true
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
