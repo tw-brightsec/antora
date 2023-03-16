@@ -1,7 +1,7 @@
 site:
   title: Brightsec Docs
   url: https://docs.demo.com
-  start_page: component-b::index.adoc
+  start_page: nav.adoc
 content:
   sources:
   - url: git@github.com:tw-brightsec/antora.git
