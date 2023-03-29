@@ -1,29 +1,24 @@
 site:
   title: Brightsec Docs
-  url: https://tw-brightsec.github.io/antora
-  start_page: webclient:user:welcome.adoc
-  robots: allow
+  start_page: component-b::index.adoc
 content:
   sources:
   - url: git@github.com:tw-brightsec/antora.git
     branches: [master]
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-asciidoc:
-  attributes:
-    toclevels: 10
-    sectids: ''
-    sectlinks: ''
-    sectanchors: ''
-    toc-title: Table of Contents
-    icons: font
-    figure-caption: Image
-    appendix-caption: App
-    wc: WebClient
-    dv: Docsvision
-urls:
-  html_extension_style: indexify
 output:
   dir: ./site
+# asciidoc:
+  # attributes:
+    # toclevels: 10
+    # sectids: ''
+    # sectlinks: ''
+    # sectanchors: ''
+    # toc-title: Table of Contents
+    # icons: font
+    # figure-caption: Image
+    # appendix-caption: App
+# robots: allow    
