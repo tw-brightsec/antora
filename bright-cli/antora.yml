@@ -1,0 +1,10 @@
+name: Bright-CLI
+title: Bright-CLI
+version: 1.0
+start_page: index.adoc
+asciidoc:
+  attributes:
+    source-language: asciidoc@
+    table-caption: false
+nav:
+- modules/ROOT/nav.adoc

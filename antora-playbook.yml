@@ -10,9 +10,8 @@ content:
     # setting edit_url to false disables the Edit this Page link for any page that originates from this repository
     # the same thing can be achieved by adding empty credentials (i.e., @) in front of the domain in the URL
     edit_url: false
-  - url: git@github.com:tw-brightsec/antora.git
-    branches: [master]
-    start_path: 
+    start_path:
+     
 asciidoc:
   attributes:
     experimental: ''
