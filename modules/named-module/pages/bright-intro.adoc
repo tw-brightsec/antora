@@ -9,23 +9,20 @@ following the remediation guidelines.
 
 == Features
 
-* *Automatically Tests Every Aspect of Your Apps & APIs* +
-Scans any target, whether Web Apps, APIs (REST & SOAP, GraphQL & more),
-Web sockets or mobile, providing actionable reports.
-* *Spin-Up, Configure and Control Scans with Code* +
-One file. One command. One scan. No UI needed.
-* *Super-Fast Scans* +
-Interacts with applications and APIs, instead of just crawling them and
-guessing. +
-Scans are fast as our AI-powered engine can understand application
-architecture and generate sophisticated and targeted attacks.
-* *No False Positives* +
-Stop chasing ghosts and wasting time. Bright doesn’t return false
-positives, so you can focus on releasing code.
-* *Comprehensive Security Testing* +
-Bright tests for all common vulnerabilities, such as SQL injection,
-CSRF, XSS, and XXE - as well as uncommon vulnerabilities, such as
-business logic vulnerabilities.
+* _Automatically Tests Every Aspect of Your Apps & APIs_ + Scans any
+target, whether Web Apps, APIs (REST & SOAP, GraphQL & more), Web
+sockets or mobile, providing actionable reports.
+* _Spin-Up, Configure and Control Scans with Code_ + One file. One
+command. One scan. No UI needed.
+* _Super-Fast Scans_ + Interacts with applications and APIs, instead of
+just crawling them and guessing. + Scans are fast as our AI-powered
+engine can understand application architecture and generate
+sophisticated and targeted attacks.
+* _No False Positives_ + Stop chasing ghosts and wasting time. Bright
+doesn’t return false positives, so you can focus on releasing code.
+* _Comprehensive Security Testing_ + Bright tests for all common
+vulnerabilities, such as SQL injection, CSRF, XSS, and XXE - as well as
+uncommon vulnerabilities, such as business logic vulnerabilities.
 
 == Interaction options
 
@@ -33,12 +30,12 @@ Bright provides the following options for interacting with its engine.
 All of these can be used for all Bright deployment options (SaaS,
 private cloud, Repeater mode).
 
-* *Bright App* – See link:/docs/quickstart[Quickstart] for a quick
+* _Bright App_ – See link:/docs/quickstart[Quickstart] for a quick
 workflow overview of how to use the Bright App.
-* *Bright CLI* – See doc:getting-started-with-nexploit-cli[Getting
+* _Bright CLI_ – See doc:getting-started-with-nexploit-cli[Getting
 Started with Bright CLI] for a quick instruction on how to start with
 the Bright CLI.
-* *Bright REST API* – See doc:about-nexploit-api[About Bright API] for
+* _Bright REST API_ – See doc:about-nexploit-api[About Bright API] for
 the reference to the Bright API guide.
 
 == Integration capabilities
