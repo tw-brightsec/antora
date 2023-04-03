@@ -8,3 +8,14 @@ asciidoc:
     table-caption: false
 nav:
 - modules/ROOT/nav.adoc
+
+name: ROOT
+title: Bright Documentation
+version: 'beta'
+#display_version: ~
+start_page: ROOT:index.adoc
+nav:
+- modules/ROOT/nav.adoc
+#- modules/ROOT/nav-sdk.adoc
+#- modules/ROOT/nav-core.adoc
+#- modules/ROOT/nav-service.adoc
