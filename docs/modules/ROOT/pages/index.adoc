@@ -3,3 +3,9 @@
 #:url_build: build-blockchain/index.adoc
 #:url_run: run-blockchain/index.adoc
 #:url_integrate: integrate-blockchain/index.adoc
+
+This is the test string of index-adoc page, which is going to be the main page of the docs portal.
+
+* [x] 1
+* [x] 2
+* [x] 3
