@@ -2,7 +2,7 @@ name: ROOT
 title: Bright Documentation
 version: 'beta'
 #display_version: ~
-start_page: ROOT:index.adoc
+start_page: docs:ROOT:index.adoc
 nav:
 - modules/ROOT/nav.adoc
 #- modules/ROOT/nav-sdk.adoc
