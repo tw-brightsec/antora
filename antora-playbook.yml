@@ -1,8 +1,8 @@
 site:
   title: Bightsec Documentation
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://antora.gitlab.io/demo/docs-site
-  start_page: modules:ROOT:pages:index.adoc
+  url: https://docs.demo.com
+  start_page: docs:modules:ROOT:pages:index.adoc
 
 content:
   sources:
