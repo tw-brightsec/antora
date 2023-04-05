@@ -1,5 +1,144 @@
-* Quickstart
-** Bright CLI
-* Test
-** Second level
-*** Third level
+* WELCOME
+** About Docs
+** Accessibility
+** Support
+
+* ABOUT BRIGHT DAST
+** What is Bright DAST?
+** Deployment Options
+*** SAAS Deployment
+*** Private Cloud Deployment
+*** Repeater (Scan Proxy)
+
+* GETTING STARTED WITH BRIGHT
+** Quickstart
+** Quick Tour of the User Interface
+
+* SCANNING FROM BRIGHT APP
+** Creating a Scan
+** Scanning with a Crawler
+** Scanning with a .HAR file
+*** Creating a .HAR file
+** Scanning API Endpoints
+*** Configuring an API Schema
+*** Editing an Uploaded API Schema
+*** Troubleshooting
+** Managing Scan Templates
+
+* MANAGING SCAN RESULTS
+** Reviewing All Scans
+** Reviewing Scan History
+** Reviewing Scan Details
+** Reviewing Entry-points
+** Exporting a Scan Report
+** Handling Discovered Issues
+** Modifying Future Scan Settings
+** Retesting a Scan
+** Deleting a Scan
+** Troubleshooting Scans
+** How to Add Bright to the WAF Allowlist
+
+* MANAGING AUTHENTICATIONS
+** Authentication Types
+** Creating Authentication
+*** Configuring Recorded Browser-Based Form Authentication
+*** Configuring Browser-Based Form Authentication
+*** Configuring Header Authentication
+*** Configuring Custom API Authentication Flow
+*** Configuring OIDC Connect (OAuth)
+*** Configuring NTLM Authentication
+*** Configuring Form Authentication
+*** Configuring API Call Authentication
+*** String Interpolation Syntax
+** Adding an Authentication Object to a Scan
+** Troubleshooting Authentication Issues
+
+* ADVANCED SETUP IN BRIGHT APP
+** Managing Organization
+*** Managing Organization Users
+*** Managing Organization Groups
+*** Managing Custom Roles
+** Managing Access Scopes
+*** Organization API Key Scopes
+*** Personal API Key Scopes
+*** Role Management Scopes
+*** Project API Key Scopes
+** Managing Personal Account
+** Managing Projects
+** Managing Repeaters
+** Using Repeater Scripts
+*** Use Cases
+*** Managing Repeater Scripts
+** Managing Bright File Storage
+
+* ACCOUNTING AND BILLING
+** About Accounting and Billing
+** Managing Plan
+** Managing Payment History
+** Managing Payment Information
+
+* USING BRIGHT CLI
+** About Bright CLI
+** Installation Guide
+** Getting Started
+*** Security Scanning as Self-Service
+*** Scanning at the Enterprise Level
+*** Scanning as Part of CI Pipeline
+** Command List
+*** Command Language Syntax
+*** Running a Scan
+*** Checking Scan Status
+*** Stopping a Scan
+*** Retesting a Scan
+*** Uploading an Archive
+*** Generating an Archive with NexMock
+*** Initializing the Repeater
+*** Testing Network Connectivity
+*** Integrating with an On-Premise Ticketing Service
+** Configuration Files
+** Troubleshooting Repeater
+
+* USING BRIGHT REST API
+** About Bright API
+** Response Status Codes
+
+* SSO INTEGRATIONS
+** Configuring Single Sign-On
+*** Okta SSO and Provisioning
+*** Google SSO
+*** Azure SSO and Provisioning
+
+* CI PIPELINE INTEGRATIONS
+** Integrating Bright with Your CI Pipeline
+*** Github Actions
+*** CircleCI
+*** Jenkins
+*** Azure Pipelines
+*** TravisCI
+*** JFrog
+*** Gitlab
+*** TeamCity
+** Integration Examples
+*** Jenkins Integration Examples
+*** Travis CI Integration Examples
+*** GitLab Integration Examples
+
+* TICKETING INTEGRATIONS
+** Integrating Bright with Your Ticketing System
+*** Jira
+*** Github
+*** Slack
+*** Azure Boards
+*** Gitlab Boards
+** Adding Ticketing Integration to a Project
+
+* ADVANCED INTEGRATION USE CASES
+** Sending Detected Issues from CI/CD Pipelines to Jira
+** Integrating a Bright Project with Webhooks
+
+* VULNERABILITY GUIDE
+
+* GENERAL
+** FAQs
+** Privacy Policy
+** Terms of Use
