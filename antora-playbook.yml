@@ -1,17 +1,18 @@
 site:
   title: Bightsec Documentation
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://docs.demo.com
-  start_page: docs:modules:ROOT:pages:index.adoc
+  # url: https://docs.demo.com
+  start_page: docs::index.adoc
 
 content:
   sources:
-  - url: git@github.com:tw-brightsec/antora.git
-    branches: master
+  - # url: git@github.com:tw-brightsec/antora.git
+  - url: /
+    branches: HEAD
     # setting edit_url to false disables the Edit this Page link for any page that originates from this repository
     # the same thing can be achieved by adding empty credentials (i.e., @) in front of the domain in the URL
     edit_url: false
-    start_path: 
+    start_path: docs
 
 asciidoc:
   attributes:
@@ -23,3 +24,7 @@ ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+
+output:
+  dir: ./out/public
+  clean: true
