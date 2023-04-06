@@ -72,10 +72,9 @@
 ** Managing Bright File Storage
 
 * ACCOUNTING AND BILLING
-** About Accounting and Billing
 ** xref:about-accounting-and-billing.adoc[About accounting and billing]
 ** Managing Plan
-** Managing Payment History
+** xref:manage-payment-history.adoc[Manage payment history]
 ** Managing Payment Information
 
 * USING BRIGHT CLI
