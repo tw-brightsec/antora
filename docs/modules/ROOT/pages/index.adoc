@@ -1,11 +1,23 @@
-= Overview - Brightsec Documentation
-#:url_understand: understand-blockchain/index.adoc
-#:url_build: build-blockchain/index.adoc
-#:url_run: run-blockchain/index.adoc
-#:url_integrate: integrate-blockchain/index.adoc
+== About Docs
 
-This is the test string of index-adoc page, which is going to be the main page of the docs portal.
+This guide is designed for security experts and developers who implement the https://test.com[Bright Dynamic Application Security Testing (DAST)] solutions to enhance security of their web applications, mobile applications (server side), and APIs.
 
-* [x] 1
-* [x] 2
-* [x] 3
+The guide gives you comprehensive concept information and step-by-step instructions on how to deploy, configure and use the Bright DAST solution, as well as how to integrate it with your CI pipelines and ticketing systems. The documentation covers multiple options of interacting with the Bright DAST solution, such as:
+
+* https://test.com[Bright App]
+* https://test.com[Bright REST API]
+* https://test.com[Bright CLI]
+
+NOTE: New to Bright?
+For more information about the Bright solutions, visit our https://brightsec.com[website].
+
+
+Bright also created a series of instructional videos intended to assist you with improving the security of your apps and APIs. You can watch them on our https://test.com[YouTube channel].
+
+You can also subscribe to our https://test.com[changelog] to get notified of all new features and improvements from Bright. 
+
+== Documentation feedback
+
+The Bright team strives to produce high-quality documentation and welcomes your feedback. If you have any comments or suggestions on our guides, please contact us at docs@brightsec.com or suggest edits on GitHub using the button placed on the top right of each page.
+
+Copyright © 2022 https://brightsec.com[Bright Security Inc.] All rights reserved.
