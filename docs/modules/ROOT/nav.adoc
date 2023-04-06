@@ -73,6 +73,7 @@
 
 * ACCOUNTING AND BILLING
 ** About Accounting and Billing
+** xref:about-accounting-and-billing.adoc[About accounting and billing]
 ** Managing Plan
 ** Managing Payment History
 ** Managing Payment Information
