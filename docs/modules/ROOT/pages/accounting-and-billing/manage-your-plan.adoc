@@ -23,7 +23,7 @@ The **Info** tab provides the following plan details:
    The **Info** tab displays the current plan net price per month
    (without discounts), as well as the number of scan hours used.
 
-image:managing-plan.png[]
+image:/accounting-and-billing/managing-plan.png[]
 
 === Upgrading a plan
 

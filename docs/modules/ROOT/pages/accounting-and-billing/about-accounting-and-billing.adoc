@@ -31,10 +31,7 @@ After each payment, you can download the invoice in PDF format from the payment 
 
 === Getting payment notifications
 
-You are not required to provide a payment card if you subscribe to a
-plan with a trial period. Upon the completion of this period (for
-example, 14 days for Pro Plan), you will get a notification with the
-payment instructions.
+You are not required to provide a payment card if you subscribe to a plan with a trial period. Upon the completion of this period (for example, 14 days for Pro Plan), you will get a notification with the payment instructions.
 
 NOTE: The number of trial days is common for an organization. If the trial period ends, the organization will not have trial days on other plans.
 

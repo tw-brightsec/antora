@@ -6,7 +6,7 @@ The payment history allows you to collect and manage all completed and upcoming 
 
 The payments that have not been completed for some reasons (for example, the credit card has expired, or it is the initial payment to be made manually after the trial period), are displayed as unpaid in the **PAYMENT HISTORY** table. To complete a payment, follow these steps:
 
-1. Click image:tree-dots-button.png[] next to the payment you need to complete.
+1. Click image:/interface-elements/tree-dots-button.png[] next to the payment you need to complete.
 2. Select **Pay**.
    If the credit card requires authentication, you will be redirected to
    the bank web page to confirm the payment. Otherwise, the payment will
@@ -20,5 +20,5 @@ To download an invoice, follow the steps:
 1. Click next to the payment for which you want to download the invoice.
 2. Select **Download invoice**.
 
-image:manage-payment-history.png[]
+image:/accounting-and-billing/manage-payment-history.png[]
 
