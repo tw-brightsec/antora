@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Untitled :: Bightsec Documentation</title>
-    <link rel="next" href="about-accounting-and-billing.html">
+    <link rel="prev" href="about-accounting-and-billing.html">
     <meta name="generator" content="Antora 3.1.3">
     <link rel="stylesheet" href="../_/css/site.css">
     <script>var uiRootPath = '../_'</script>
@@ -308,7 +308,7 @@
   <li class="nav-item" data-depth="2">
     <span class="nav-text">Managing Plan</span>
   </li>
-  <li class="nav-item" data-depth="2">
+  <li class="nav-item is-current-page" data-depth="2">
     <a class="nav-link" href="manage-payment-history.html">Manage payment history</a>
   </li>
   <li class="nav-item" data-depth="2">
@@ -556,8 +556,13 @@
 <main class="article">
 <div class="toolbar" role="navigation">
 <button class="nav-toggle"></button>
-  <a href="index.html" class="home-link is-current"></a>
+  <a href="index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">Bright Docs</a></li>
+    <li>ACCOUNTING AND BILLING</li>
+    <li><a href="manage-payment-history.html">Manage payment history</a></li>
+  </ul>
 </nav>
 </div>
   <div class="content">
@@ -566,61 +571,54 @@
 </aside>
 <article class="doc">
 <div class="sect1">
-<h2 id="about-docs"><a class="anchor" href="#about-docs"></a>About Docs</h2>
+<h2 id="managing-payment-history"><a class="anchor" href="#managing-payment-history"></a>Managing Payment History</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This guide is designed for security experts and developers who implement the <a href="https://test.com">Bright Dynamic Application Security Testing (DAST)</a> solutions to enhance security of their web applications, mobile applications (server side), and APIs.</p>
+<p>The payment history allows you to collect and manage all completed and upcoming payments, as well as download invoices. Payment amounts in the history table are specified with the account of discount coupons if applied.</p>
 </div>
+<div class="sect2">
+<h3 id="making-a-payment"><a class="anchor" href="#making-a-payment"></a>Making a payment</h3>
 <div class="paragraph">
-<p>The guide gives you comprehensive concept information and step-by-step instructions on how to deploy, configure and use the Bright DAST solution, as well as how to integrate it with your CI pipelines and ticketing systems. The documentation covers multiple options of interacting with the Bright DAST solution, such as:</p>
+<p>The payments that have not been completed for some reasons (for example, the credit card has expired, or it is the initial payment to be made manually after the trial period), are displayed as unpaid in the <strong>PAYMENT HISTORY</strong> table. To complete a payment, follow these steps:</p>
 </div>
-<div class="ulist">
-<ul>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
-<p><a href="https://test.com">Bright App</a></p>
+<p>Click <span class="image"><img src="_images/tree-dots-button.png" alt="tree dots button"></span> next to the payment you need to complete.</p>
 </li>
 <li>
-<p><a href="https://test.com">Bright REST API</a></p>
+<p>Select <strong>Pay</strong>.
+If the credit card requires authentication, you will be redirected to
+the bank web page to confirm the payment. Otherwise, the payment will
+be made automatically.
+After the payment, you will be able to download the invoice.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="downloading-an-invoice"><a class="anchor" href="#downloading-an-invoice"></a>Downloading an invoice</h3>
+<div class="paragraph">
+<p>To download an invoice, follow the steps:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click next to the payment for which you want to download the invoice.</p>
 </li>
 <li>
-<p><a href="https://test.com">Bright CLI</a></p>
+<p>Select <strong>Download invoice</strong>.</p>
 </li>
-</ul>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-New to Bright?
-For more information about the Bright solutions, visit our <a href="https://brightsec.com">website</a>.
-</td>
-</tr>
-</table>
+</ol>
 </div>
 <div class="paragraph">
-<p>Bright also created a series of instructional videos intended to assist you with improving the security of your apps and APIs. You can watch them on our <a href="https://test.com">YouTube channel</a>.</p>
+<p><span class="image"><img src="_images/manage-payment-history.png" alt="manage payment history"></span></p>
 </div>
-<div class="paragraph">
-<p>You can also subscribe to our <a href="https://test.com">changelog</a> to get notified of all new features and improvements from Bright.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="documentation-feedback"><a class="anchor" href="#documentation-feedback"></a>Documentation feedback</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The Bright team strives to produce high-quality documentation and welcomes your feedback. If you have any comments or suggestions on our guides, please contact us at <a href="mailto:docs@brightsec.com">docs@brightsec.com</a> or suggest edits on GitHub using the button placed on the top right of each page.</p>
-</div>
-<div class="paragraph">
-<p>Copyright © 2022 <a href="https://brightsec.com">Bright Security Inc.</a> All rights reserved.</p>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="next"><a href="about-accounting-and-billing.html">About accounting and billing</a></span>
+  <span class="prev"><a href="about-accounting-and-billing.html">About accounting and billing</a></span>
 </nav>
 </article>
   </div>
