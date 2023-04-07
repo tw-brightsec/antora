@@ -73,8 +73,8 @@
 
 * ACCOUNTING AND BILLING
 ** xref:accounting-and-billing:about-accounting-and-billing.adoc[About accounting and billing]
-** xref:/accounting-and-billing/manage-your-plan.adoc[Managing plan]
-** xref:manage-payment-history.adoc[Managing payment history]
+** xref:accounting-and-billing/manage-your-plan.adoc[Managing plan]
+** xref:/accounting-and-billing/manage-payment-history.adoc[Managing payment history]
 ** Managing Payment Information
 
 * USING BRIGHT CLI
