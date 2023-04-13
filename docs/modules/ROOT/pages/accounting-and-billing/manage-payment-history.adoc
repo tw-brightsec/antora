@@ -20,5 +20,5 @@ To download an invoice, follow the steps:
 1. Click next to the payment for which you want to download the invoice.
 2. Select **Download invoice**.
 
-image:/accounting-and-billing/manage-payment-history.png[]
+image::/accounting-and-billing/manage-payment-history.png[]
 
