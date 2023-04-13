@@ -1,7 +1,6 @@
 * WELCOME
-** xref:welcome/accessibility.adoc
-** xref:accounting-and-billing/about-accounting-and-billing.adoc[About accounting and billing]
-** Support
+** xref:welcome/accessibility.adoc[Accessibility]
+** xref:welcome/support.adoc[Support]
 
 * ABOUT BRIGHT DAST
 ** What is Bright DAST?
