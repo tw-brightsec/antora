@@ -3,7 +3,7 @@
 ** xref:welcome/support.adoc[Support]
 
 * ABOUT BRIGHT DAST
-** What is Bright DAST?
+** xref:about-bright/intro-bright.adoc[What is Bright DAST]
 ** Deployment Options
 *** SAAS Deployment
 *** Private Cloud Deployment
