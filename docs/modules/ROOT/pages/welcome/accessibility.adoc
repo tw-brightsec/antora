@@ -32,7 +32,7 @@ following keys are used to control the focus element:
 -  **ENTER** - Confirmation of the adjustment
 -  **ESC** - Closing the pop-up window and returning to the main page
 
-image:/accessibility/accessibility1.png[]
+image:/welcome/accessibility1.png[]
 
 === Screen-readers compatibility
 
@@ -49,15 +49,13 @@ The Bright app provides several ways of changing the font size.
 
 NOTE: The Bright app supports zooming up to 200%. To do this, you can hold the **Control (Command) button** and then scroll the mouse wheel. Also, you can enter the main browser menu and adjust zoom there.
 
-image:/accessibility/accessibility2.png[]
+image:/welcome/accessibility2.png[]
 
 2. 
 Also, you can use your browser settings to change the font size to
    **Large** and **Very large**. First, open the **Settings page**.
 
-image:: https://files.readme.io/71ea40d-Screen_Shot_2022-11-28_at_09.31.38.png
-
-image:/accessibility/accessibility3.png[]
+image:/welcome/accessibility3.png[]
 
 Then click the **Appearance** tab and select the preferable font size.
 Also, here you can adjust the page zoom.

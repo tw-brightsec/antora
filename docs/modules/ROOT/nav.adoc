@@ -1,6 +1,6 @@
 * WELCOME
-** About Docs
-** Accessibility
+** xref:welcome/accessibility.adoc
+** xref:accounting-and-billing/about-accounting-and-billing.adoc[About accounting and billing]
 ** Support
 
 * ABOUT BRIGHT DAST

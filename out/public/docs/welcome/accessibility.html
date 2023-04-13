@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: Bightsec Documentation</title>
+    <meta name="generator" content="Antora 3.1.3">
+    <link rel="stylesheet" href="../../_/css/site.css">
+    <script>var uiRootPath = '../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../..">Bightsec Documentation</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="docs" data-version="master">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">Bright Docs</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">WELCOME</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">About Docs</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Accessibility</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Support</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">ABOUT BRIGHT DAST</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">What is Bright DAST?</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Deployment Options</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">SAAS Deployment</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Private Cloud Deployment</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Repeater (Scan Proxy)</span>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">GETTING STARTED WITH BRIGHT</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Quickstart</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Quick Tour of the User Interface</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">SCANNING FROM BRIGHT APP</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Creating a Scan</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Scanning with a Crawler</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Scanning with a .HAR file</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Creating a .HAR file</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Scanning API Endpoints</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Configuring an API Schema</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Editing an Uploaded API Schema</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Troubleshooting</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Managing Scan Templates</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">MANAGING SCAN RESULTS</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Reviewing All Scans</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Reviewing Scan History</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Reviewing Scan Details</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Reviewing Entry-points</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Exporting a Scan Report</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Handling Discovered Issues</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Modifying Future Scan Settings</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Retesting a Scan</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Deleting a Scan</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Troubleshooting Scans</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">How to Add Bright to the WAF Allowlist</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">MANAGING AUTHENTICATIONS</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Authentication Types</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Creating Authentication</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Configuring Recorded Browser-Based Form Authentication</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Configuring Browser-Based Form Authentication</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Configuring Header Authentication</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Configuring Custom API Authentication Flow</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Configuring OIDC Connect (OAuth)</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Configuring NTLM Authentication</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Configuring Form Authentication</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Configuring API Call Authentication</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">String Interpolation Syntax</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Adding an Authentication Object to a Scan</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Troubleshooting Authentication Issues</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">ADVANCED SETUP IN BRIGHT APP</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Managing Organization</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Managing Organization Users</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Managing Organization Groups</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Managing Custom Roles</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Managing Access Scopes</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Organization API Key Scopes</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Personal API Key Scopes</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Role Management Scopes</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Project API Key Scopes</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Managing Personal Account</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Managing Projects</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Managing Repeaters</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Using Repeater Scripts</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Use Cases</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Managing Repeater Scripts</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Managing Bright File Storage</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">ACCOUNTING AND BILLING</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../accounting-and-billing/about-accounting-and-billing.html">About accounting and billing</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../accounting-and-billing/manage-your-plan.html">Managing plan</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../accounting-and-billing/manage-payment-history.html">Managing payment history</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Managing Payment Information</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">USING BRIGHT CLI</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">About Bright CLI</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Installation Guide</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Getting Started</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Security Scanning as Self-Service</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Scanning at the Enterprise Level</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Scanning as Part of CI Pipeline</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Command List</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Command Language Syntax</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Running a Scan</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Checking Scan Status</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Stopping a Scan</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Retesting a Scan</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Uploading an Archive</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Generating an Archive with NexMock</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Initializing the Repeater</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Testing Network Connectivity</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Integrating with an On-Premise Ticketing Service</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Configuration Files</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Troubleshooting Repeater</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">USING BRIGHT REST API</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">About Bright API</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Response Status Codes</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">SSO INTEGRATIONS</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Configuring Single Sign-On</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Okta SSO and Provisioning</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Google SSO</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Azure SSO and Provisioning</span>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">CI PIPELINE INTEGRATIONS</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Integrating Bright with Your CI Pipeline</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Github Actions</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">CircleCI</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Jenkins</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Azure Pipelines</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">TravisCI</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">JFrog</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Gitlab</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">TeamCity</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Integration Examples</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Jenkins Integration Examples</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Travis CI Integration Examples</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">GitLab Integration Examples</span>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">TICKETING INTEGRATIONS</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Integrating Bright with Your Ticketing System</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Jira</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Github</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Slack</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Azure Boards</span>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <span class="nav-text">Gitlab Boards</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Adding Ticketing Integration to a Project</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">ADVANCED INTEGRATION USE CASES</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Sending Detected Issues from CI/CD Pipelines to Jira</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Integrating a Bright Project with Webhooks</span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <span class="nav-text">VULNERABILITY GUIDE</span>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">GENERAL</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">FAQs</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Privacy Policy</span>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text">Terms of Use</span>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Bright Docs</span>
+    <span class="version">master</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">Bright Docs</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">master</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="sect1">
+<h2 id="accessibility"><a class="anchor" href="#accessibility"></a>Accessibility</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Bright makes a lot of efforts to ensure that all categories of users can
+use the application. The Bright app complies WCAG 2.0 requirements and
+provides the following accessibility features:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Compliness the contrast requirements</p>
+</li>
+<li>
+<p>The ability to fully control the application using the keyboard,
+without using the mouse</p>
+</li>
+<li>
+<p>Compatibility with screen-readers (e.x. <strong>Windows Narrator</strong> and
+<strong>Apple VoiceOver</strong>)</p>
+</li>
+<li>
+<p>Possibility to increase the page zoom up to 200%</p>
+</li>
+<li>
+<p>Ability to increase font size through browser settings to <strong>Large</strong>
+and <strong>Very Large</strong></p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="high-contrast-themes"><a class="anchor" href="#high-contrast-themes"></a>High-contrast themes</h3>
+<div class="paragraph">
+<p>The Bright app meets the contrast requirements of WCAG 2.0 to allow
+people with low vision to use the app fully. The contrast is adapted for
+both light and dark themes.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="fully-keyboard-input"><a class="anchor" href="#fully-keyboard-input"></a>Fully keyboard input</h3>
+<div class="paragraph">
+<p>Bright supports full-fledged keyboard control of the application without
+using the mouse. The control is carried out through a focus element,
+which can be moved over all page elements. To start using this mode, you
+need to select any element using the keyboard by pressing <strong>TAB</strong>. The
+following keys are used to control the focus element:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>TAB</strong> - Selection of the next element</p>
+</li>
+<li>
+<p><strong>Arrows</strong> - Changing the parameters of the selected element</p>
+</li>
+<li>
+<p><strong>ENTER</strong> - Confirmation of the adjustment</p>
+</li>
+<li>
+<p><strong>ESC</strong> - Closing the pop-up window and returning to the main page</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><span class="image unresolved"><img src="/accessibility/accessibility1.png" alt="accessibility1"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="screen-readers-compatibility"><a class="anchor" href="#screen-readers-compatibility"></a>Screen-readers compatibility</h3>
+<div class="paragraph">
+<p>To learn how to use Windows Narrator, see the <a href="https://https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1">Windows Narrator guide</a>.</p>
+</div>
+<div class="paragraph">
+<p>To learn how to use Apple VoiceOver, see the <a href="https://support.apple.com/en-ge/guide/voiceover/welcome/mac">Apple VoiceOver
+  guide</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="font-size"><a class="anchor" href="#font-size"></a>Font size</h3>
+<div class="paragraph">
+<p>The Bright app provides several ways of changing the font size.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>You can adjust the font size by simply changing the page zoom.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The Bright app supports zooming up to 200%. To do this, you can hold the <strong>Control (Command) button</strong> and then scroll the mouse wheel. Also, you can enter the main browser menu and adjust zoom there.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="image unresolved"><img src="/accessibility/accessibility2.png" alt="accessibility2"></span></p>
+</div>
+<div class="paragraph">
+<p>2.
+Also, you can use your browser settings to change the font size to
+   <strong>Large</strong> and <strong>Very large</strong>. First, open the <strong>Settings page</strong>.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">image</dt>
+<dd>
+<p><a href="https://files.readme.io/71ea40d-Screen_Shot_2022-11-28_at_09.31.38.png" class="bare">https://files.readme.io/71ea40d-Screen_Shot_2022-11-28_at_09.31.38.png</a></p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p><span class="image unresolved"><img src="/accessibility/accessibility3.png" alt="accessibility3"></span></p>
+</div>
+<div class="paragraph">
+<p>Then click the <strong>Appearance</strong> tab and select the preferable font size.
+Also, here you can adjust the page zoom.</p>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
