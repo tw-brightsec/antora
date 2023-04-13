@@ -27,7 +27,7 @@ security issues by following the remediation guidelines.
    CSRF, XSS, and XXE - as well as uncommon vulnerabilities, such as
    business logic vulnerabilities.
 
-image:/about-bright/intro-bright1.png[]
+image:/about-bright/intro-bright1.png[align="center"]
 
 === Interaction options
 
@@ -60,4 +60,4 @@ you should create in the Bright App.
 -  To read how to configure integration with a ticketing system, see
    https://address.com[Integrate Bright with Your Ticketing System]
 
-image:/about-bright/intro-bright2.png[]
+image:/about-bright/intro-bright2.png[align="center"]
