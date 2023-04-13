@@ -7,7 +7,7 @@
 ** Deployment Options
 *** SAAS Deployment
 *** Private Cloud Deployment
-*** Repeater (Scan Proxy)
+*** xref:about-bright/deployment-options/intro-repeater.adoc[Repeater (Scan Proxy)]
 
 * GETTING STARTED WITH BRIGHT
 ** Quickstart
