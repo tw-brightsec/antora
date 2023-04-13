@@ -13,6 +13,7 @@
 ** Quickstart
 ** Quick Tour of the User Interface
 
+
 * SCANNING FROM BRIGHT APP
 ** Creating a Scan
 ** Scanning with a Crawler
